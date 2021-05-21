@@ -10,7 +10,7 @@ const { addresses } = require("../models");
 
 exports.create = async () => {
     var resultData =[];
-    for(let j=0;j < 2;j++){
+    for(let j=0;j < 100;j++){
         var config = {
             method: 'get',
             url: 'https://randomuser.me/api/',
